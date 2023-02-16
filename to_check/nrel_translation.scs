@@ -1,0 +1,13 @@
+nrel_translation
+<- sc_node_norole_relation;
+<- quasybinary_relation;
+=> nrel_main_idtf: 
+	[трансляция*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_main_idtf: 
+	[translation*] 
+	(* 
+	<- lang_en;; 
+	*);;

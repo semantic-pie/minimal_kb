@@ -1,0 +1,9 @@
+knowledge_base_IMS
+=> nrel_main_idtf:
+	[База знаний IMS]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Knowledge base IMS]
+	(* <- lang_en;; *);
+
+<- ui_start_sc_element;;
