@@ -56,7 +56,11 @@ ui_control_search_idtf_edit
 	<= nrel_sc_text_translation:
 		...
 		(*
-		-> "file://contents/ui_control_search_idtf_edit_descr_initiate.html" (* <- lang_ru;; *);;
+		-> "file://contents/ui_control_search_idtf_edit_descr_initiate.html"
+			(* 
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+			*);;
 		*);;	
 	*);
 
@@ -67,7 +71,11 @@ ui_control_search_idtf_edit
 	<= nrel_sc_text_translation:
 		...	
 		(*
-		-> "file://contents/ui_control_search_idtf_edit_descr_oper_sem_ru.html" (* <- lang_ru;; *);;
+		-> "file://contents/ui_control_search_idtf_edit_descr_oper_sem_ru.html"
+			(* 
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+			*);;
 		*);;
 	*);
 
@@ -89,7 +97,8 @@ ui_control_search_idtf_edit
 
 "file://contents/ui_control_search_idtf_edit_example.gif"
   <- image;
-  <= nrel_system_identifier: [ui_control_search_idtf_edit_example];;
+  <= nrel_system_identifier: [ui_control_search_idtf_edit_example];
+  => nrel_format: format_png;;
 
 // ------------------------------------------------
 ui_control_select_window_type
@@ -104,7 +113,11 @@ ui_control_select_window_type
 	<= nrel_sc_text_translation:
 		...
 		(*
-		-> "file://contents/ui_control_select_window_type_descr_initiate.html" (* <- lang_ru;; *);;
+		-> "file://contents/ui_control_select_window_type_descr_initiate.html"
+			(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+			*);;
 		*);;	
 	*);
 
@@ -146,6 +159,27 @@ ui_control_change_window_size
 		... (* -> [control that allows to expand or narrow active window content area] (* <- lang_en;; *);; *);;
 	*);;
 
+// ------------------------------------------------
+ui_control_collapse_sidebar
+=> nrel_main_idtf:
+	[Элемент управления состоянием боковой панели навигации] (* <- lang_ru;; *);
+	[Controlling element of sidebar state] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		... (* -> [Элемент управления, который позволяет скрыть или раскрыть боковую панель навигации] (* <- lang_ru;; *);; *);;
+	*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		... (* -> [Control that allows to collapse or expand the sidebar] (* <- lang_en;; *);; *);;
+	*);;
 // ------------------------------------------------
 ui_control_print_window_content
 => nrel_main_idtf:
@@ -225,7 +259,11 @@ ui_control_argument_button_clear
 	<= nrel_sc_text_translation:
 		...
 		(*
-		-> "file://contents/ui_control_argument_button_clear_descr_initiate.html" (* <- lang_ru;; *);;
+		-> "file://contents/ui_control_argument_button_clear_descr_initiate.html"
+			(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+			*);;
 		*);;	
 	*);
 
