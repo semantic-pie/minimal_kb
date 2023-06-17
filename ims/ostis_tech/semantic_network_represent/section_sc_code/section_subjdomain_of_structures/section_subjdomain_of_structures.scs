@@ -12,7 +12,6 @@ section_subject_domain_of_structures
 <- not_enough_formed_structure;
 <- atomic_section;;
 
-section_subject_domain_of_structures = [*^"file://section_subjdomain_of_structures.scsi"*];;
 
 rrel_key_sc_element -> (section_subject_domain_of_structures -> subject_domain_of_structures)
 (*
@@ -132,7 +131,10 @@ exercise_1_section_subject_domain_of_structures
   (*
   -> rrel_example:
     "file://content_html/exercises/exercise_1/exercise_1_subjdomain_of_structures.html"
-   (* <- lang_ru;; *);;
+    (*
+	<- lang_ru;;
+	=> nrel_format: format_html;;
+   	*);;
   *);;
  *);;
 
@@ -146,7 +148,7 @@ exercise_1_section_subject_domain_of_structures
   ...
   (*
   -> rrel_example:
-    "file://content_html/exercises/exercise_1/1.png";;
+    "file://content_html/exercises/exercise_1/1.png" (* => nrel_format: format_png;; *);;
   *);;
  *);;
 

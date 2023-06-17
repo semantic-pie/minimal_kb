@@ -13,13 +13,15 @@ section_subjdomain_ligaments_relations
 	 (*
 		 -> rrel_example:
 		   "file://nl_files/introduction_section_subjdomain_ligaments_relations.pdf"
-			(* <- lang_ru;;	*);;
+		   (*
+		   <- lang_ru;;
+		   => nrel_format: format_pdf;;
+   	       *);;
 	 *);;
 *);
 <- not_enough_formed_structure;
 <- atomic_section;;
 
-section_subjdomain_ligaments_relations = [*^"file://section_subjdomain_ligaments_relations.scsi"*];;
 section_subjdomain_ligaments_relations
 -> rrel_key_sc_element:
 	section_subject_domain_ligaments_relations;
@@ -112,7 +114,10 @@ exercise_1_section_subjdomain_ligaments_relations
   (*
   -> rrel_example:
     "file://nl_files/exercises/exercise_1/exercise_1_subjdomain_ligaments_relations.html"
-   (* <- lang_ru;; *);;
+    (*
+	<- lang_ru;;
+	=> nrel_format: format_html;;
+   	*);;
   *);;
  *);;
 exercise_1_section_subjdomain_ligaments_relations
@@ -125,7 +130,7 @@ exercise_1_section_subjdomain_ligaments_relations
   ...
   (*
   -> rrel_example:
-    "file://nl_files/exercises/exercise_1/1.png";;
+    "file://nl_files/exercises/exercise_1/1.png" (* => nrel_format: format_png;; *);;
   *);;
  *);;
 
@@ -152,7 +157,10 @@ exercise_2_section_subjdomain_ligaments_relations
   (*
   -> rrel_example:
     "file://nl_files/exercises/exercise_2/subjdomain_ligaments_relations_exercise_2.html"
-   (* <- lang_ru;; *);;
+    (*
+	<- lang_ru;;
+	=> nrel_format: format_html;;
+   	*);;
   *);;
  *);;
 exercise_2_section_subjdomain_ligaments_relations
@@ -165,7 +173,7 @@ exercise_2_section_subjdomain_ligaments_relations
   ...
   (*
   -> rrel_example:
-    "file://nl_files/exercises/exercise_2/2.png";;
+    "file://nl_files/exercises/exercise_2/2.png" (* => nrel_format: format_png;; *);;
   *);;
  *);;
 
@@ -193,7 +201,10 @@ exercise_3_section_subjdomain_ligaments_relations
   (*
   -> rrel_example:
     "file://nl_files/exercises/exercise_3/exercise_3_subjdomain_ligaments_relations.html"
-   (* <- lang_ru;; *);;
+    (*
+	<- lang_ru;;
+	=> nrel_format: format_html;;
+   	*);;
   *);;
  *);;
 exercise_3_section_subjdomain_ligaments_relations
@@ -206,7 +217,7 @@ exercise_3_section_subjdomain_ligaments_relations
   ...
   (*
   -> rrel_example:
-    "file://nl_files/exercises/exercise_3/3.png";;
+    "file://nl_files/exercises/exercise_3/3.png" (* => nrel_format: format_png;; *);;
   *);;
  *);;
 
@@ -233,7 +244,10 @@ exercise_4_section_subjdomain_ligaments_relations
   (*
   -> rrel_example:
     "file://nl_files/exercises/exercise_4/exercise_4_subjdomain_ligaments_relations.html"
-   (* <- lang_ru;; *);;
+    (*
+	<- lang_ru;;
+	=> nrel_format: format_html;;
+   	*);;
   *);;
  *);;
 
@@ -248,7 +262,7 @@ exercise_4_section_subjdomain_ligaments_relations
   ...
   (*
   -> rrel_example:
-    "file://nl_files/exercises/exercise_4/4.png";;
+    "file://nl_files/exercises/exercise_4/4.png" (* => nrel_format: format_png;; *);;
   *);;
  *);;
 
