@@ -1,0 +1,21 @@
+concept_salt
+<- ui_start_sc_element;
+=> nrel_main_idtf:
+	[солевая база] (* <- lang_ru;; *);
+	[salt knowledge base] (* <- lang_en;; *);;
+definition -> definition_of_salt (*
+	-> rrel_key_sc_element: concept_salt;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Минимальная база знаний для ostis 0.8.0] (* <- lang_ru;; *);;
+		-> [Minimal knowledge base for ostis 0.8.0] (* <- lang_en;; *);;
+		*);;
+	=> nrel_main_idtf:
+		[Опр. (солевая база)] (* <- lang_ru;; *);
+		[Def. (salt kb)] (* <- lang_en;; *);;
+	*);;
+
+"file://salt.gif"
+ <- image;
+ => nrel_format: format_png;
+ <- concept_salt;;
