@@ -273,18 +273,6 @@ sc_identifier_set
 				=> nrel_format: format_html;;
    				*);;
 		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/typical_sc_neighborhood_for_sc_identifier_set1.png" (* => nrel_format: format_png;; *);
-				"file://content_img/typical_sc_neighborhood_for_sc_identifier_set2.png" (* => nrel_format: format_png;; *);;
-		*);;
 	*);;
 
 sc_identifier_tuple_set
@@ -311,17 +299,6 @@ sc_identifier_tuple_set
 				=> nrel_format: format_html;;
    				*);;
 		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/typical_sc_neighborhood_for_sc_identifier_tuple_set.png" (* => nrel_format: format_png;; *);;
-		*);;
 	*);;
 
 sc_identifier_operation
@@ -347,17 +324,6 @@ sc_identifier_operation
 				<- lang_ru;;
 				=> nrel_format: format_html;;
    				*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/typical_sc_neighborhood_for_sc_identifier_operation_set.png" (* => nrel_format: format_png;; *);;
 		*);;
 	*);;
 

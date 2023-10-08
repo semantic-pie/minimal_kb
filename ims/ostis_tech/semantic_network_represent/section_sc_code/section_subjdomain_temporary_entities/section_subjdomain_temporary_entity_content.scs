@@ -554,18 +554,6 @@ nrel_event
 			=> nrel_format: format_html;;
    			*);;
 		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/event.png" (* => nrel_format: format_png;; *);;
-		*);;
 	*);;
 	
 	
@@ -832,30 +820,6 @@ nrel_temporal_part
 			=> nrel_format: format_html;;
    			*);;
 		*);;
-	*);
-	
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/nrel_temporal_part.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);
-	
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/nrel_temporal_part_second.png" (* => nrel_format: format_png;; *);;
-		*);;
 	*);;
 	
 nrel_first_stage
@@ -902,31 +866,7 @@ nrel_temporal_inclusion_without_coincidence_of_the_initial_and_final_moments
 
 => nrel_idtf:
 	[строгое темпоральное включение*]
-	(* <- lang_ru;; *);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/nrel_temporal_inclusion_without_coincidence_of_the_initial_and_final_moments.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);
-	
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/nrel_temporal_inclusion_without_coincidence_of_the_initial_and_final_moments_second.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);;
+	(* <- lang_ru;; *);;
 	
 	
 nrel_temporal_inclusion_with_coincidence_of_the_initial_moments
@@ -937,31 +877,7 @@ nrel_temporal_inclusion_with_coincidence_of_the_initial_moments
 	[темпоральное включение с совпадением начальных моментов*]
 	(* <- lang_ru;; *);
 	[temporal inclusion with coincidence of the initial moments*]
-	(* <- lang_en;; *);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/nrel_temporal_inclusion_with_coincidence_of_the_initial_moments.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);
-	
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/nrel_temporal_inclusion_with_coincidence_of_the_initial_moments_second.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);;
+	(* <- lang_en;; *);;
 		
 nrel_temporal_inclusion_with_coincidence_of_the_final_moments
 
@@ -971,31 +887,7 @@ nrel_temporal_inclusion_with_coincidence_of_the_final_moments
 	[темпоральное включение с совпадением конечных моментов*]
 	(* <- lang_ru;; *);
 	[temporal inclusion with coincidence of the final moments*]
-	(* <- lang_en;; *);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/nrel_temporal_inclusion_with_coincidence_of_the_final_moments.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);
-	
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/nrel_temporal_inclusion_with_coincidence_of_the_final_moments_second.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);;
+	(* <- lang_en;; *);;
 
 
 nrel_temporal_concurrence
@@ -1021,31 +913,7 @@ nrel_temporal_union
 	[темпоральное объединение*]
 	(* <- lang_ru;; *);
 	[temporal union*]
-	(* <- lang_en;; *);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/nrel_temporal_union.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/nrel_temporal_union_second.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);;
+	(* <- lang_en;; *);;
 
 	
 nrel_temporal_decomposition
@@ -1056,31 +924,7 @@ nrel_temporal_decomposition
 	[темпоральная декомпозиция*]
 	(* <- lang_ru;; *);
 	[temporal decomposition]
-	(* <- lang_en;; *);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/nrel_temporal_decomposition.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);
-	
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/nrel_temporal_decomposition_second.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);;
+	(* <- lang_en;; *);;
 
 	
 nrel_temporal_adjacency	
@@ -1097,31 +941,7 @@ nrel_temporal_adjacency
 	[строгая темпоральная последовательность (без темпорального промежутка)*]
 	(* <- lang_ru;; *);
 	[темпоральная последовательность без промежутка*]
-	(* <- lang_ru;; *);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/nrel_temporal_adjacency.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);
-	
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/nrel_temporal_adjacency_second.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);;
+	(* <- lang_ru;; *);;
 
 	
 nrel_temporal_sequence_with_gap
@@ -1132,31 +952,7 @@ nrel_temporal_sequence_with_gap
 	[темпоральная последовательность с промежутком*]
 	(* <- lang_ru;; *);
 	[temporal sequence with gap*]
-	(* <- lang_en;; *);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/nrel_temporal_sequence_with_gap.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);
-	
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/nrel_temporal_sequence_with_gap_second.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);;
+	(* <- lang_en;; *);;
 
 
 nrel_temporal_sequence_with_intersection
@@ -1167,31 +963,7 @@ nrel_temporal_sequence_with_intersection
 	[темпоральная последовательность с пересечением*]
 	(* <- lang_ru;; *);
 	[temporal sequence with intersection*]
-	(* <- lang_en;; *);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/nrel_temporal_sequence_with_intersection.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);
-	
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/nrel_temporal_sequence_with_intersection_second.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);;
+	(* <- lang_en;; *);;
 	
 
 begin
@@ -1237,18 +1009,6 @@ begin
 			<- lang_ru;;
 			=> nrel_format: format_html;;
    			*);;
-		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/begin.png" (* => nrel_format: format_png;; *);;
 		*);;
 	*);;
 	
@@ -1298,18 +1058,6 @@ completion
 			<- lang_ru;;
 			=> nrel_format: format_html;;
    			*);;
-		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/completion.png" (* => nrel_format: format_png;; *);;
 		*);;
 	*);;
 
@@ -1365,18 +1113,6 @@ duration
 			<- lang_ru;;
 			=> nrel_format: format_html;;
    			*);;
-		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/duration.png" (* => nrel_format: format_png;; *);;
 		*);;
 	*);;
 

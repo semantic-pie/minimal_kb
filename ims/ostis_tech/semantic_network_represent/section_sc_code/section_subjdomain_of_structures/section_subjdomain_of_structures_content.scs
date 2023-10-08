@@ -556,20 +556,6 @@ semantic_level_structural_element
 			=> nrel_format: format_html;;
 			*);;
 		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://images/semantic_level_structural_element.png"
-			(*
-			=> nrel_format: format_png;;
-			*);;
-		*);;
 	*);;
 
 
@@ -701,20 +687,6 @@ nrel_gomomorphic
 			=> nrel_format: format_html;;
 			*);;
 		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://images/gomomorphic.png"
-			(*
-			=> nrel_format: format_png;;
-			*);;
-		*);;
 	*);;
 	
 
@@ -762,21 +734,6 @@ nrel_isomorphic
 			=> nrel_format: format_html;;
 			*);;
 		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://images/isomorphic.png"
-			(*
-			=> nrel_format: format_png;;
-			*);;
-		*);;
 	*);;
 	
 	
@@ -818,21 +775,6 @@ nrel_automorphic
 			=> nrel_format: format_html;;
 			*);;
 		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://images/isomorphic.png"
-			(*
-			=> nrel_format: format_png;;
-			*);;
-		*);;
 	*);;
 	
 	
@@ -872,21 +814,6 @@ nrel_structures_analogy
 			(*
 			<- lang_ru;;
 			=> nrel_format: format_html;;
-			*);;
-		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://images/analogy.png"
-			(*
-			=> nrel_format: format_png;;
 			*);;
 		*);;
 	*);;
@@ -936,21 +863,6 @@ nrel_primary_syntax_sc_text_structure
 			(*
 			<- lang_ru;;
 			=> nrel_format: format_html;;
-			*);;
-		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-			"file://images/semantic_sc_text_structure.png"
-			(*
-			=> nrel_format: format_png;;
 			*);;
 		*);;
 	*);;

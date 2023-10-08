@@ -95,11 +95,6 @@ ui_control_search_idtf_edit
 		... (* -> [control that allows to search sc-elements by their identifiers] (* <- lang_en;; *);; *);;
 	*);;
 
-"file://contents/ui_control_search_idtf_edit_example.gif"
-  <- image;
-  <= nrel_system_identifier: [ui_control_search_idtf_edit_example];
-  => nrel_format: format_png;;
-
 // ------------------------------------------------
 ui_control_select_window_type
 => nrel_main_idtf:

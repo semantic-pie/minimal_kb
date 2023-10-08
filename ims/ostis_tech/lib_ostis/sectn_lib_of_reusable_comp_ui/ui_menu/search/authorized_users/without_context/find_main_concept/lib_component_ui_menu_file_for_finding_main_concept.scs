@@ -23,18 +23,6 @@ lib_component_ui_menu_file_for_finding_main_concept
 			=> nrel_format: format_html;;
 			*);;
 		*);;
-	*);
-	
-<- rrel_key_sc_element:
-	... 
-	(*
-	<- illustration;;
-	<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-			"file://images/main_concept.png" (* => nrel_format: format_png;; *);; 
-		*);;
 	*);;
 
 

@@ -423,19 +423,7 @@ nrel_sum_of_numbers
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-		*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_sum_of_numbers.png" (* => nrel_format: format_png;; *);;
-			*);;
-	*);;
+		*);;
 
 nrel_multiplication_of_numbers
 <- sc_node_norole_relation;
@@ -463,19 +451,7 @@ nrel_multiplication_of_numbers
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-		*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_multiplication_of_numbers.png" (* => nrel_format: format_png;; *);;
-			*);;
-	*);;
+		*);;
 
 nrel_pow_numbers
 <- sc_node_norole_relation;
@@ -500,19 +476,7 @@ nrel_pow_numbers
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-		*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_pow.png" (* => nrel_format: format_png;; *);;
-			*);;
-	*);;
+		*);;
 
 nrel_be_more
 <- sc_node_norole_relation;
@@ -538,19 +502,7 @@ nrel_be_more
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-		*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_be_more.png" (* => nrel_format: format_png;; *);;
-			*);;
-	*);;
+		*);;
 
 nrel_equal_numbers
 <- sc_node_norole_relation;
@@ -582,19 +534,7 @@ nrel_equal_numbers
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-		*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_equal_numbers.png" (* => nrel_format: format_png;; *);;
-			*);;
-	*);;
+		*);;
 
 nrel_more_or_equal
 <- sc_node_norole_relation;
@@ -620,19 +560,7 @@ nrel_more_or_equal
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-		*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_more_or_equal.png" (* => nrel_format: format_png;; *);;
-			*);;
-	*);;
+		*);;
 
 number_pi
 <- sc_node_not_relation;

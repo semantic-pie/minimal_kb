@@ -73,22 +73,6 @@ exercise_1_section_subjdomain_parameters_and_values
   		*);;
  	*);;
 
-exercise_1_section_subjdomain_parameters_and_values
-=> nrel_right_answer: 
-	...
-	(*
-	<- rrel_key_sc_element: 
-		...
- 		(*
-  		<- illustration;;
-  		<= nrel_sc_text_translation:
-  			...
-  			(*
-  			-> rrel_example:
-    				"file://nl_files/exercise_parameters_1_right_answer.png" (* => nrel_format: format_png;; *);;
-  			*);;
- 		*);;
-	*);;
 
 section_subjdomain_parameters_and_values
 =>nrel_exercise: 
@@ -119,19 +103,3 @@ exercise_2_section_subjdomain_parameters_and_values
   		*);;
  	*);;
 
-exercise_2_section_subjdomain_parameters_and_values
-=> nrel_right_answer: 
-	...
-	(*
-	<- rrel_key_sc_element: 
-		...
- 		(*
-  		<- illustration;;
-  		<= nrel_sc_text_translation:
-  			...
-  			(*
-  			-> rrel_example:
-    				"file://nl_files/exercise_parameters_2_right_answer.png" (* => nrel_format: format_png;; *);;  
-  			*);;
- 		*);;
-	*);;

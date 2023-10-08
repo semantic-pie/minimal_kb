@@ -699,18 +699,6 @@ nrel_implication <- sc_node_norole_relation;
 			=> nrel_format: format_html;;
 			*);;
 		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-			"file://images/explanation_for_nrel_implication.png" (* => nrel_format: format_png;; *);;
-		*);;
 	*);;
 
 rrel_if <- sc_node_role_relation;
@@ -748,22 +736,6 @@ rrel_if <- sc_node_role_relation;
 			(*
 			<- lang_ru;;
 			=> nrel_format: format_html;;
-			*);;
-		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-			"file://images/explanation_for_rrel_if.png";;			
-			(*
-			<- lang_ru;;
-			=> nrel_format: format_png;;
 			*);;
 		*);;
 	*);;
@@ -805,22 +777,6 @@ rrel_then <- sc_node_role_relation;
 			=> nrel_format: format_html;;
 			*);;
 		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-			"file://images/explanation_for_rrel_then.png";;			
-			(*
-			<- lang_ru;;
-			=> nrel_format: format_png;;
-			*);;
-		*);;
 	*);;
 
 nrel_equivalence <- sc_node_norole_relation;
@@ -856,18 +812,6 @@ nrel_equivalence <- sc_node_norole_relation;
 			<- lang_ru;;
 			=> nrel_format: format_html;;
 			*);;
-		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-			"file://images/explanation_for_nrel_equivalence.png" (* => nrel_format: format_png;; *);;
 		*);;
 	*);;
 
@@ -908,18 +852,6 @@ nrel_conjunction <- sc_node_norole_relation;
 			<- lang_ru;;
 			=> nrel_format: format_html;;
 			*);;
-		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-			"file://images/explanation_for_nrel_conjunction.png" (* => nrel_format: format_png;; *);;
 		*);;
 	*);;
 
@@ -962,18 +894,6 @@ nrel_disjunction <- sc_node_norole_relation;
 			=> nrel_format: format_html;;
 			*);;
 		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-			"file://images/explanation_for_nrel_disjunction.png" (* => nrel_format: format_png;; *);;
-		*);;
 	*);;
 
 nrel_strict_disjunction <- sc_node_norole_relation;
@@ -1015,18 +935,6 @@ nrel_strict_disjunction <- sc_node_norole_relation;
 			=> nrel_format: format_html;;
 			*);;
 		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-			"file://images/explanation_for_nrel_strict_disjunction.png" (* => nrel_format: format_png;; *);;
-		*);;
 	*);;
 
 negation <- sc_node_norole_relation; 
@@ -1057,18 +965,6 @@ negation <- sc_node_norole_relation;
 			<- lang_ru;;
 			=> nrel_format: format_html;;
 			*);;
-		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-			"file://images/explanation_for_negation.png" (* => nrel_format: format_png;; *);;
 		*);;
 	*);;
 
@@ -1132,18 +1028,6 @@ nrel_generality <- sc_node_norole_relation;
 			<- lang_ru;;
 			=> nrel_format: format_html;;
 			*);;
-		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-		...
-		(*			
-		-> rrel_example:
-			"file://images/explanation_for_nrel_generality.png" (* => nrel_format: format_png;; *);;
 		*);;
 	*);;
 
@@ -1233,18 +1117,6 @@ nrel_existence <- sc_node_norole_relation;
 			=> nrel_format: format_html;;
 			*);;
 		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-			"file://images/explanation_for_nrel_existence.png" (* => nrel_format: format_png;; *);;
-		*);;
 	*);;
 
 number_values_of_variable <- sc_node_not_relation;
@@ -1329,18 +1201,6 @@ rrel_bind_variables <- sc_node_role_relation;
 			<- lang_ru;;
 			=> nrel_format: format_html;;
 			*);;
-		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-			"file://images/explanation_for_rrel_bind_variables.png" (* => nrel_format: format_png;; *);;
 		*);;
 	*);;
 

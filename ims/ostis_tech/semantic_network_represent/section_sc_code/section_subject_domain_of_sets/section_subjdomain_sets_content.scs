@@ -399,21 +399,6 @@ multiplicity_of_belonging
 				=> nrel_format: format_html;;
 				*);;
 		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/description_for_multiplicity_of_belonging.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
 	*);;
 
 sc_node_not_relation -> class;;
@@ -1031,50 +1016,6 @@ nrel_inclusion
 				=> nrel_format: format_html;;
 				*);;
 		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/description_for_inclusion.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
-		=> nrel_comment:
-		...
-		(*
-			<= nrel_sc_text_translation:
-			...
-			(*
-			-> rrel_example:
-				"file://content_html/comment_for_inclusion.html"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_html;;
-				*);;
-			*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/image_for_inclusion.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
 	*);;
 
 sc_node_norole_relation -> nrel_strict_inclusion;;
@@ -1105,50 +1046,6 @@ nrel_strict_inclusion
 				=> nrel_format: format_html;;
 				*);;
 		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/description_for_strict_inclusion.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
-		=> nrel_comment:
-		...
-		(*
-			<= nrel_sc_text_translation:
-			...
-			(*
-			-> rrel_example:
-				"file://content_html/comment_for_strict_inclusion.html"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_html;;
-				*);;
-			*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/image_for_strict_inclusion.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
 	*);;
 
 sc_node_norole_relation -> nrel_combination;;
@@ -1175,50 +1072,6 @@ nrel_combination
 				(*
 				<- lang_ru;;
 				=> nrel_format: format_html;;
-				*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/description_for_combination.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
-		=> nrel_comment:
-		...
-		(*
-			<= nrel_sc_text_translation:
-			...
-			(*
-			-> rrel_example:
-				"file://content_html/comment_for_combination.html"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_html;;
-				*);;
-			*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/image_for_combination.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
 				*);;
 		*);;
 	*);;
@@ -1255,50 +1108,6 @@ nrel_subdividing
 				=> nrel_format: format_html;;
 				*);;
 		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/description_for_subdividing.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
-		=> nrel_comment:
-		...
-		(*
-			<= nrel_sc_text_translation:
-			...
-			(*
-			-> rrel_example:
-				"file://content_html/comment_for_subdividing.html"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_html;;
-				*);;
-			*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/image_for_subdividing.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
 	*);;
 
 sc_node_norole_relation -> nrel_intersection;;
@@ -1327,50 +1136,6 @@ nrel_intersection
 				=> nrel_format: format_html;;
 				*);;
 		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/description_for_intersection.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
-		=> nrel_comment:
-		...
-		(*
-			<= nrel_sc_text_translation:
-			...
-			(*
-			-> rrel_example:
-				"file://content_html/comment_for_intersection.html"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_html;;
-				*);;
-			*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/image_for_intersection.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
 	*);;
 
 sc_node_norole_relation -> nrel_pair_of_intersecting_sets;;
@@ -1394,152 +1159,6 @@ nrel_pair_of_intersecting_sets
 				(*
 				<- lang_ru;;
 				=> nrel_format: format_html;;
-				*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- definition;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_html/definition_for_pair_of_intersecting_sets.html"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_html;;
-				*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/description_for_pair_of_intersecting_sets.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
-		=> nrel_comment:
-		...
-		(*
-			<= nrel_sc_text_translation:
-			...
-			(*
-			-> rrel_example:
-				"file://content_html/comment_for_pair_of_intersecting_sets.html"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_html;;
-				*);;
-			*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/image_for_pair_of_intersecting_sets.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
-	*);;
-
-sc_node_norole_relation -> nrel_pairwise_intersecting_sets;;
-nrel_pairwise_intersecting_sets
-=> nrel_main_idtf:
-	[попарно пересекающиеся множества*]
-	(* <- lang_ru;; *); 
-	[pairwise intersecting sets*]
-	(* <- lang_en;; *);
-=> nrel_idtf:
-	[семейство попарно пересекающихся множеств*]
-	(* <- lang_ru;; *); 
-=> nrel_strict_inclusion: nrel_intersecting_sets;
-<- relation;
-<- rrel_key_sc_element:
-	...
-	(*
-		<- definition;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_html/definition_for_pairwise_intersecting_sets.html"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_html;;
-				*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- note;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_html/note_for_pairwise_intersecting_sets.html"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_html;;
-				*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/description_for_pairwise_intersecting_sets.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
-		=> nrel_comment:
-		...
-		(*
-			<= nrel_sc_text_translation:
-			...
-			(*
-			-> rrel_example:
-				"file://content_html/comment_for_pairwise_intersecting_sets.html"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_html;;
-				*);;
-			*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/image_for_pairwise_intersecting_sets.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
 				*);;
 		*);;
 	*);;
@@ -1572,35 +1191,6 @@ nrel_intersecting_sets
 				=> nrel_format: format_html;;
 				*);;
 		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/description_for_intersecting_sets.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
-		=> nrel_comment:
-		...
-		(*
-			<= nrel_sc_text_translation:
-			...
-			(*
-			-> rrel_example:
-				"file://content_html/comment_for_intersecting_sets.html"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_html;;
-				*);;
-			*);;
-		*);;
 	*);;
 
 sc_node_norole_relation -> nrel_pair_of_non_intersecting_sets;;
@@ -1624,50 +1214,6 @@ nrel_pair_of_non_intersecting_sets
 				(*
 				<- lang_ru;;
 				=> nrel_format: format_html;;
-				*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/description_for_pair_of_non_intersecting_sets.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
-		=> nrel_comment:
-		...
-		(*
-			<= nrel_sc_text_translation:
-			...
-			(*
-			-> rrel_example:
-				"file://content_html/comment_for_pair_of_non_intersecting_sets.html"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_html;;
-				*);;
-			*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/image_for_pair_of_non_intersecting_sets.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
 				*);;
 		*);;
 	*);;
@@ -1697,35 +1243,6 @@ nrel_pairwise_non_intersecting_sets
 				=> nrel_format: format_html;;
 				*);;
 		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/description_for_pairwise_non_intersecting_sets.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
-		=> nrel_comment:
-		...
-		(*
-			<= nrel_sc_text_translation:
-			...
-			(*
-			-> rrel_example:
-				"file://content_html/comment_for_pairwise_non_intersecting_sets.html"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_html;;
-				*);;
-			*);;
-		*);;
 	*);;
 
 sc_node_norole_relation -> nrel_non_intersecting_sets;;
@@ -1754,35 +1271,6 @@ nrel_non_intersecting_sets
 				=> nrel_format: format_html;;
 				*);;
 		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/description_for_non_intersecting_sets.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
-		=> nrel_comment:
-		...
-		(*
-			<= nrel_sc_text_translation:
-			...
-			(*
-			-> rrel_example:
-				"file://content_html/comment_for_non_intersecting_sets.html"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_html;;
-				*);;
-			*);;
-		*);;
 	*);;
 
 sc_node_norole_relation -> nrel_sets_difference;;
@@ -1808,50 +1296,6 @@ nrel_sets_difference
 				=> nrel_format: format_html;;
 				*);;
 		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/description_for_sets_difference.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
-		=> nrel_comment:
-		...
-		(*
-			<= nrel_sc_text_translation:
-			...
-			(*
-			-> rrel_example:
-				"file://content_html/comment_for_sets_difference.html"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_html;;
-				*);;
-			*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/image_for_sets_difference.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
 	*);;
 
 sc_node_norole_relation -> nrel_symmetric_sets_difference;;
@@ -1875,50 +1319,6 @@ nrel_symmetric_sets_difference
 				(*
 				<- lang_ru;;
 				=> nrel_format: format_html;;
-				*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/description_for_symmetric_sets_difference.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
-		=> nrel_comment:
-		...
-		(*
-			<= nrel_sc_text_translation:
-			...
-			(*
-			-> rrel_example:
-				"file://content_html/comment_for_symmetric_sets_difference.html"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_html;;
-				*);;
-			*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/image_for_symmetric_sets_difference.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
 				*);;
 		*);;
 	*);;
@@ -1950,35 +1350,6 @@ nrel_cartesian_product
 				<- lang_ru;;
 				=> nrel_format: format_html;;
 				*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/description_for_cartesian_product.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
-		=> nrel_comment:
-		...
-		(*
-			<= nrel_sc_text_translation:
-			...
-			(*
-			-> rrel_example:
-				"file://content_html/comment_for_cartesian_product.html"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_html;;
-				*);;
-			*);;
 		*);;
 	*);;
 
@@ -2020,21 +1391,6 @@ nrel_set_of_subsets
 				=> nrel_format: format_html;;
 				*);;
 		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/description_for_set_of_subsets.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
 	*);;
 
 sc_node_norole_relation -> nrel_boolean;;
@@ -2063,21 +1419,6 @@ nrel_boolean
 				(*
 				<- lang_ru;;
 				=> nrel_format: format_html;;
-				*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/description_for_boolean.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
 				*);;
 		*);;
 	*);;
@@ -2133,21 +1474,6 @@ power_of_set
 				=> nrel_format: format_html;;
 				*);;
 		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/description_for_power_of_set.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
 	*);;
 
 sc_node_norole_relation -> nrel_equality_of_sets;;
@@ -2175,35 +1501,6 @@ nrel_equality_of_sets
 				<- lang_ru;;
 				=> nrel_format: format_html;;
 				*);;
-		*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-				"file://content_img/description_for_equality_of_sets.png"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_png;;
-				*);;
-		*);;
-		=> nrel_comment:
-		...
-		(*
-			<= nrel_sc_text_translation:
-			...
-			(*
-			-> rrel_example:
-				"file://content_html/comment_for_equality_of_sets.html"
-				(*
-				<- lang_ru;;
-				=> nrel_format: format_html;;
-				*);;
-			*);;
 		*);;
 	*);;
 

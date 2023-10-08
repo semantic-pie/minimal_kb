@@ -14,8 +14,3 @@ definition -> definition_of_salt (*
 		[Опр. (солевая база)] (* <- lang_ru;; *);
 		[Def. (salt kb)] (* <- lang_en;; *);;
 	*);;
-
-"file://salt.gif"
- <- image;
- => nrel_format: format_png;
- <- concept_salt;;

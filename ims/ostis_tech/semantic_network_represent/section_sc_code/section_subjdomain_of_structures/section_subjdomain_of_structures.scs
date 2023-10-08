@@ -137,19 +137,3 @@ exercise_1_section_subject_domain_of_structures
    	*);;
   *);;
  *);;
-
-exercise_1_section_subject_domain_of_structures
-=> nrel_right_answer: ...
-(*
-<- rrel_key_sc_element: ...
- (*
-  <- illustration;;
-  <= nrel_sc_text_translation:
-  ...
-  (*
-  -> rrel_example:
-    "file://content_html/exercises/exercise_1/1.png" (* => nrel_format: format_png;; *);;
-  *);;
- *);;
-
-*);;

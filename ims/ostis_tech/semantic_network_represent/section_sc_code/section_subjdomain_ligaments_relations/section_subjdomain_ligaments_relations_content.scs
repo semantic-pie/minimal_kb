@@ -1195,18 +1195,7 @@ arity
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-		*);
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-		...
-		(*
-			-> rrel_example:
-			"file://content_img/image_for_arity.png" (* => nrel_format: format_png;; *);;
 		*);;
-	*);;
 
 nrel_definitional_domain
 <- sc_node_norole_relation;
@@ -1229,18 +1218,6 @@ nrel_definitional_domain
 					<- lang_ru;;
 					=> nrel_format: format_html;;
    					*);;
-			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_definitional_domain.png" (* => nrel_format: format_png;; *);;
 			*);;
 	*);;
 
@@ -1266,18 +1243,6 @@ nrel_relation_attribute
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_relation_attribute.png" (* => nrel_format: format_png;; *);;
-			*);;
 	*);;
 
 nrel_domain
@@ -1302,18 +1267,6 @@ nrel_domain
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_relation_attribute.png" (* => nrel_format: format_png;; *);;
-			*);;
 	*);;
 
 nrel_first_domain
@@ -1335,17 +1288,6 @@ nrel_first_domain
 					<- lang_ru;;
 					=> nrel_format: format_html;;
    					*);;
-			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_first_domain.png" (* => nrel_format: format_png;; *);;
 			*);;
 	*);;
 
@@ -1369,18 +1311,6 @@ nrel_second_domain
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_second_domain.png" (* => nrel_format: format_png;; *);;
-			*);;
 	*);;
 
 nrel_composition_of_relations
@@ -1402,18 +1332,6 @@ nrel_composition_of_relations
 					<- lang_ru;;
 					=> nrel_format: format_html;;
    					*);;
-			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_composition_of_relations.png" (* => nrel_format: format_png;; *);;
 			*);;
 	*);;
 
@@ -1440,18 +1358,6 @@ nrel_quotient_set
 					<- lang_ru;;
 					=> nrel_format: format_html;;
    					*);;
-			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_quotient_set.png" (* => nrel_format: format_png;; *);;
 			*);;
 	*);;
 
@@ -1535,17 +1441,6 @@ nrel_mapping
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_mapping.png" (* => nrel_format: format_png;; *);;
-			*);;
 	*);;
 
 nrel_mapping_between_non_intersecting_sets
@@ -1588,18 +1483,6 @@ nrel_relation_of_mapping
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_mapping.png" (* => nrel_format: format_png;; *);;
-			*);;
 	*);;
 
 rrel_input_set
@@ -1626,18 +1509,6 @@ rrel_input_set
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_rrel_input_output_sets.png" (* => nrel_format: format_png;; *);;
-			*);;
 	*);;
 
 rrel_output_set
@@ -1663,18 +1534,6 @@ rrel_output_set
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_rrel_input_output_sets.png" (* => nrel_format: format_png;; *);;
-			*);;
 	*);;
 
 rrel_image_of_mapping
@@ -1698,18 +1557,6 @@ rrel_image_of_mapping
 					<- lang_ru;;
 					=> nrel_format: format_html;;
    					*);;
-			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_rrel_image_preimage.png" (* => nrel_format: format_png;; *);;
 			*);;
 	*);;
 
@@ -1736,18 +1583,6 @@ rrel_preimage_of_mapping
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_rrel_image_preimage.png" (* => nrel_format: format_png;; *);;
-			*);;
 	*);;
 
 nrel_total_mapping
@@ -1772,30 +1607,6 @@ nrel_total_mapping
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_total_mapping.png" (* => nrel_format: format_png;; *);;
-			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_total_mapping.png" (* => nrel_format: format_png;; *);;
-			*);;
 	*);;
 
 nrel_partial_mapping
@@ -1804,46 +1615,7 @@ nrel_partial_mapping
 	[частично определенное соответствие*] (* <- lang_ru;; *);
 	[partial mapping*] (* <- lang_en;; *);
 => nrel_idtf:
-	[наличие частично определенного соответствия*] (* <- lang_ru;; *);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- definition;;
-		<= nrel_sc_text_translation:
-		...
-			(*
-				-> rrel_example:
-					"file://nl_files/definition_for_nrel_partial_mapping.html"
-					(*
-					<- lang_ru;;
-					=> nrel_format: format_html;;
-   					*);;
-			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_partial_mapping.png" (* => nrel_format: format_png;; *);;
-			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_partial_mapping.png" (* => nrel_format: format_png;; *);;
-			*);;
-	*);;
+	[наличие частично определенного соответствия*] (* <- lang_ru;; *);;
 
 nrel_surjection
 <- sc_node_norole_relation;
@@ -1867,30 +1639,6 @@ nrel_surjection
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_total_mapping.png" (* => nrel_format: format_png;; *);;
-			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_surjection.png" (* => nrel_format: format_png;; *);;
-			*);;
 	*);;
 
 nrel_non_surjective_mapping
@@ -1899,46 +1647,7 @@ nrel_non_surjective_mapping
 	[несюръективное соответствие*] (* <- lang_ru;; *);
 	[non surjective mapping*] (* <- lang_en;; *);
 => nrel_idtf:
-	[наличие несюръективного соответствия*] (* <- lang_ru;; *);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- definition;;
-		<= nrel_sc_text_translation:
-		...
-			(*
-				-> rrel_example:
-					"file://nl_files/definition_for_nrel_non_surjective_mapping.html"
-					(*
-					<- lang_ru;;
-					=> nrel_format: format_html;;
-   					*);;
-			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_non_surjective_mapping.png" (* => nrel_format: format_png;; *);;
-			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_non_surjective_mapping.png" (* => nrel_format: format_png;; *);;
-			*);;
-	*);;
+	[наличие несюръективного соответствия*] (* <- lang_ru;; *);;
 
 nrel_functional_mapping
 <- sc_node_norole_relation;
@@ -1948,46 +1657,7 @@ nrel_functional_mapping
 => nrel_idtf:
 	[наличие однозначного соответствия*] (* <- lang_ru;; *);
 	[функциональное соответветствие*] (* <- lang_ru;; *);
-	[функция*] (* <- lang_ru;; *);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- definition;;
-		<= nrel_sc_text_translation:
-		...
-			(*
-				-> rrel_example:
-					"file://nl_files/definition_for_nrel_functional_mapping.html"
-					(*
-					<- lang_ru;;
-					=> nrel_format: format_html;;
-   					*);;
-			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_total_mapping.png" (* => nrel_format: format_png;; *);;
-			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_functional_mapping.png" (* => nrel_format: format_png;; *);;
-			*);;
-	*);;
+	[функция*] (* <- lang_ru;; *);;
 
 nrel_backward_mapping
 <- sc_node_norole_relation;
@@ -2053,30 +1723,6 @@ nrel_ambiguous_mapping
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_ambiguous_mapping.png" (* => nrel_format: format_png;; *);;
-			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_ambiguous_mapping.png" (* => nrel_format: format_png;; *);;
-			*);;
 	*);;
 
 nrel_injection
@@ -2101,30 +1747,6 @@ nrel_injection
 					<- lang_ru;;
 					=> nrel_format: format_html;;
    					*);;
-			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_injection.png" (* => nrel_format: format_png;; *);;
-			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_injection.png" (* => nrel_format: format_png;; *);;
 			*);;
 	*);;
 
@@ -2152,30 +1774,6 @@ nrel_bijective_mapping
 					<- lang_ru;;
 					=> nrel_format: format_html;;
    					*);;
-			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- image;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_bijective_mapping.png" (* => nrel_format: format_png;; *);;
-			*);;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-		
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_bijective_mapping.png" (* => nrel_format: format_png;; *);;
 			*);;
 	*);;
 
@@ -2219,32 +1817,7 @@ nrel_set_of_combinations
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-		*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_set_of_combinations.png" (* => nrel_format: format_png;; *);;
-			*);;
-			=> nrel_comment:
-			...
-				(*
-					<= nrel_sc_text_translation:
-					...
-					(*
-						-> rrel_example:
-						"file://nl_files/comment_for_nrel_set_of_combinations.html"
-						(*
-						<- lang_ru;;
-						=> nrel_format: format_html;;
-   						*);;
-					*);;
-				*);;
-	*);;
+		*);;
 
 nrel_set_of_partial_permutations
 <- sc_node_norole_relation;
@@ -2280,32 +1853,7 @@ nrel_set_of_partial_permutations
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-		*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_set_of_partial_permutations.png" (* => nrel_format: format_png;; *);;
-			*);;
-			=> nrel_comment:
-			...
-				(*
-					<= nrel_sc_text_translation:
-					...
-					(*
-						-> rrel_example:
-						"file://nl_files/comment_for_nrel_set_of_partial_permutations.html"
-						(*
-						<- lang_ru;;
-						=> nrel_format: format_html;;
-   						*);;
-					*);;
-				*);;
-	*);;
+		*);;
 
 nrel_set_of_permutations
 <- sc_node_norole_relation;
@@ -2342,31 +1890,6 @@ nrel_set_of_permutations
 					=> nrel_format: format_html;;
    					*);;
 			*);;
-		*);
-<- rrel_key_sc_element:
-	...
-	(*
-		<- description_of_a_typical_instance;;
-		<= nrel_sc_text_translation:
-		...
-			(*
-				-> rrel_example:
-					"file://content_img/image_for_nrel_set_of_permutations.png" (* => nrel_format: format_png;; *);;
-			*);;
-			=> nrel_comment:
-			...
-				(*
-					<= nrel_sc_text_translation:
-					...
-					(*
-						-> rrel_example:
-						"file://nl_files/comment_for_nrel_set_of_permutations.html"
-						(*
-						<- lang_ru;;
-						=> nrel_format: format_html;;
-   						*);;
-					*);;
-				*);;
-	*);;
+		*);;
 
 *];;

@@ -205,22 +205,6 @@ exercise_1_section_subjdomain_sets
   *);;
  *);;
 
-exercise_1_section_subjdomain_sets
-=> nrel_right_answer: ...
-(*
-<- rrel_key_sc_element: ...
- (*
-  <- illustration;;
-  <= nrel_sc_text_translation:
-  ...
-  (*
-  -> rrel_example:
-    "file://content_html/exercises/exercise_1/1.png" (* => nrel_format: format_png;; *);;
-  *);;
- *);;
-
-*);;
-
 
 section_subjdomain_sets
 =>nrel_exercise: 
@@ -250,20 +234,5 @@ exercise_2_section_subjdomain_sets
   *);;
  *);;
 
-exercise_2_section_subjdomain_sets
-=> nrel_right_answer: ...
-(*
-<- rrel_key_sc_element: ...
- (*
-  <- illustration;;
-  <= nrel_sc_text_translation:
-  ...
-  (*
-  -> rrel_example:
-    "file://content_html/exercises/exercise_2/2.png" (* => nrel_format: format_png;; *);;
-  *);;
- *);;
-
-*);;
 
 

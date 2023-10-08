@@ -95,18 +95,6 @@ parameter
 				=> nrel_format: format_html;;
    				*);;
 			*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/parameter.png" (* => nrel_format: format_png;; *);;
-		*);;
 	*);;
 
 
@@ -218,18 +206,6 @@ level_class_equivalence
 				=> nrel_format: format_html;;
    				*);;
 			*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/color.png" (* => nrel_format: format_png;; *);;
-		*);;
 	*);;
 
 value
@@ -303,18 +279,6 @@ exact_value
 			*);;
 	*);
 
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/exact_value.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);
-
 => nrel_comment:
 	...
 	(*
@@ -363,17 +327,6 @@ inaccurate_value
 			*);;
 	*);
 
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/inaccurate_value.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);
 
 => nrel_comment:
 	...
@@ -421,17 +374,6 @@ interval_value
 			*);;
 	*);
 
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/interval_value.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);
 
 => nrel_comment:
 	...
@@ -727,18 +669,6 @@ scale
 			*);;
 	*);
 
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/scale.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);
-
 => nrel_comment:
 	...
 	(*
@@ -976,30 +906,6 @@ nrel_composition_of_quantities
 				=> nrel_format: format_html;;
    				*);;
 			*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/composition.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/composition2.png" (* => nrel_format: format_png;; *);;
-		*);;
 	*);;
 
 nrel_pow_of_quantities
@@ -1044,30 +950,6 @@ nrel_pow_of_quantities
 				=> nrel_format: format_html;;
    				*);;
 			*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/pow.png" (* => nrel_format: format_png;; *);;
-		*);;
-	*);
-
-<- rrel_key_sc_element:
-	...
-	(*
-	<- description_of_a_typical_instance;;
-	<= nrel_sc_text_translation:
-	...
-		(*
-		-> rrel_example:
-			"file://nl_files/pow2.png" (* => nrel_format: format_png;; *);;
-		*);;
 	*);;
 
 nrel_large_quantitie

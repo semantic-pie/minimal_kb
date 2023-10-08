@@ -23,17 +23,5 @@ lib_component_ui_menu_file_for_finding_pattern_with_context
 			=> nrel_format: format_html;;
 			*);;
 		*);;
-	*);
-	
-<- rrel_key_sc_element:
-	... 
-	(*
-	<- illustration;;
-	<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-			"file://images/pattern.png" (* => nrel_format: format_png;; *);; 
-		*);;
 	*);;
 
